@@ -48,6 +48,10 @@ p{
     list-style-type: none;
 }
 
+.menu li a:hover{
+    color: #dd670c;
+}
+
 
 .header-text{
     height: 225px;
@@ -179,7 +183,17 @@ p{
 .service-card{
     box-shadow: 5px 5px 5px rgba(219, 214, 207, 0.555);
     padding: 40px;
+    border-radius: 5px;
     
+}
+
+.service-card:hover{
+    background: #dd670c;
+    color: #ffff; 
+    transition: 0.1s ease-out;
+}
+.service-card:hover p{
+    color: #ffff; 
 }
 .service-text p{
     color: grey;
@@ -233,6 +247,15 @@ p{
     text-align: center;
     margin-bottom: 40px;
 }
+.facts-card:hover{
+   background: #eb6607d5;
+   color: aliceblue;
+    transition: 0.3s ease;
+}
+
+.facts-card:hover p{
+    color: aliceblue;
+}
 
 
 
@@ -261,8 +284,80 @@ p{
     filter: saturate(0.2);
 }
 
+
+
 /* OUR SPONSORS END  */
 
+/* FORM START */
+.form{
+    margin-top: 200px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 600px;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,70,0.8),rgba(0,0,70,0.6)),url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.form-box{
+    position: relative;
+    top:20%;
+    padding: 50px;
+    color: #ffff;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-box h1{
+    padding: 0 0 30px 0;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input-text input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.login-btn{
+    color: #dd670c;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.signup-link{
+    margin-top: 30px;
+}
+.signup-link a{
+    background: #eb0d0d;
+    font-size: 16px;
+    padding: 15px;
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 10px;
+
+}
 /* FOOTER START  */
 .footer{
     background: #e4d6ca;
