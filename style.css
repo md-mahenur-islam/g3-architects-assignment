@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* UNIVERSAL STYLE  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p,a{
+    font-family: 'Work Sans', sans-serif; 
+}
+p{
+    color: grey;
+}
+
+
+/* HEADER STYLE START  */
+
+.header{
+    height: 1322px;
+    background:rgba(240, 189, 130, 0.199);
+}
+
+.navbar{
+    
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Work Sans', sans-serif; 
+    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.menu li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.header-text{
+    height: 225px;
+    width: 900px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.text-area{
+   margin-top: 100px;
+   margin-left: 400px;
+    width: 800px;
+
+}
+
+.text-area h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.text-area p{
+    color: #131313;
+}
+
+.explore-btn{ 
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #dd670c;
+    border-radius: 5px;
+    background:#dd670c ;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.header-banner{
+    margin: 100px 150px;
+}
+
+.banner-img{
+    height: 700px;
+    width: 1200px;
+}
+
+
+/* HEADER STYLE END  */
+
+/* FEATURE STYLE START  */
+
+.feature-area{
+    display: flex;
+    width: 90%;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.feature-text{
+    height: 400px;
+    width:600px;
+    margin-top: 300px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#fea-header h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#fea-header p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.fea-btn{
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #dd670c;
+    border-radius: 5px;
+    background:#dd670c ;
+    color: #ffff;
+    font-weight: 700;
+}
+
+
+/* FEATURES STYLE END  */
+
+/* SERVICES STYLE START*/
+
+.services-area{ 
+    margin: 100px 100px 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    background: #f5f2ef62;
+}
+
+
+.service-head h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    border-color: #dd670c;
+}
+.service-head p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.service-card{
+    box-shadow: 5px 5px 5px rgba(219, 214, 207, 0.555);
+    padding: 40px;
+    
+}
+.service-text p{
+    color: grey;
+}
+
+#exp-btn{
+    position: relative;
+    left: 610px;
+    top: -140px;
+}
+
+.experience-btn{
+    padding: 30px;
+    border: 1px solid #dd670c;
+    border-radius: 5px;
+    background:#dd670c ;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* SOME FACTS STYLE START  */
+
+.some-facts-text{
+    width: 600px;
+    margin-left: 100px;
+}
+
+.some-facts-text h1{
+    margin-bottom: 20px;
+}
+
+.some-facts-text p{
+    color: grey;
+}
+.some-facts-card{
+    display: flex;
+    gap: 150px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.facts-card{
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* SOME FACTS STYLE END  */
+
+/* OUR SPONSORS START  */
+.sponsors-text{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    margin-left: 550px;
+}
+
+.sponsors-text h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sponsors-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+    filter: saturate(0.2);
+}
+
+/* OUR SPONSORS END  */
+
+/* FOOTER START  */
+.footer{
+    background: #e4d6ca;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    text-align: center;
+}
+.footer p{
+    color: #131313;
+}
+
+/* FOOTER END  */
